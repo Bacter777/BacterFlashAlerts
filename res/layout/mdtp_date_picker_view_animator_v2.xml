@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--suppress ALL -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content">
+    <com.bacter.bacterflashalerts.ahuk.materialdatetimepicker.date.AccessibleDateAnimator
+        android:id="@+id/mdtp_animator"
+        android:layout_width="@dimen/mdtp_date_picker_component_width_v2"
+        android:layout_height="@dimen/mdtp_date_picker_view_animator_height_v2"
+        android:gravity="center"
+        android:paddingTop="@dimen/mdtp_date_picker_view_animator_padding_v2"
+        android:paddingBottom="@dimen/mdtp_date_picker_view_animator_padding_v2"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        tools:ignore="MissingClass" />
+</FrameLayout>
